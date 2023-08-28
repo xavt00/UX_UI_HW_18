@@ -1,35 +1,57 @@
-/* CSS Reset- This will help me make sure that nothing is going wonky at the start haha*/
+/* CSS Reset - This will help me make sure that nothing is going wonky at the start haha */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Global Styles */
-  body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #333;
-  }
-  
-  /* I'll add my custom styles after here */
-.inline-block {display: inline-block; vertical-align: top;}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-.logo { width: 75%; padding: 1%; }
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
 
+/* I'll add my custom styles after here */
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+}
 
-nav { width: 100%; background-color: #0D0C0D; padding: 1%; }
+.logo {
+  width: 75%;
+  padding: 1%;
+}
 
-nav li { padding: 10px; color: white;}
+nav {
+  width: 100%;
+  background-color: #0D0C0D;
+  padding: 1%;
+}
 
-ul { /*width: 50%;*/ margin-left: auto; }
+nav li {
+  padding: 10px;
+  color: white;
+}
 
-.logo { text-align: start; }
+ul {
+  margin-left: auto;
+}
 
-.heroImg { height: 600px; padding: 25px; }
+.logo {
+  text-align: start;
+}
 
-.content { width: 500px; margin: 0 auto; }
+.heroImg {
+  height: 600px;
+  padding: 25px;
+}
+
+.content {
+  width: 500px;
+  margin: 0 auto;
+}
 
 /* My UX Skills section coded using CSS flex */
 .flexContainer {
@@ -57,25 +79,38 @@ ul { /*width: 50%;*/ margin-left: auto; }
 .flexContainer h3 {
   font-size: 20px;
   margin-bottom: 10px;
-  text-align: center;
 }
 
 .flexContainer p {
   margin-bottom: 20px;
-  text-align: center;
 }
 
-/* Add styles for the View all projects h3 tag */
+.myWork {
+  justify-content: center;
+}
 .myWork h3 {
   text-align: center;
   margin-top: 20px;
   font-size: 24px;
 }
 
-footer { background-color: #0D0C0D; padding: 10px; }
+footer {
+  background-color: #0D0C0D;
+  padding: 10px;
+}
 
-footer ul { display: inline-block; vertical-align: top; }
+footer ul {
+  display: inline-block;
+  vertical-align: top;
+}
 
-footer li { padding: 10px; color: white;}
+footer li {
+  padding: 10px;
+  color: white;
+}
 
-h1 {text-align: center; margin: 0 auto; padding-top: 25px;}
+h1 {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 25px;
+}

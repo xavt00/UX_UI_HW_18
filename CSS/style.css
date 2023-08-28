@@ -34,6 +34,8 @@ ul { /*width: 50%;*/ margin-left: auto; }
 /* My UX Skills section coded using CSS flex */
 .flexContainer {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .flexContainer > div {
@@ -55,10 +57,12 @@ ul { /*width: 50%;*/ margin-left: auto; }
 .flexContainer h3 {
   font-size: 20px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .flexContainer p {
   margin-bottom: 20px;
+  text-align: center;
 }
 
 /* Add styles for the View all projects h3 tag */

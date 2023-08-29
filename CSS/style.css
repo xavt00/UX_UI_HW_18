@@ -42,7 +42,7 @@ width: 33%;
 margin: 10px;
 padding: 20px;
 background-color: #f2f2f2;
-border: 1px solid #0D0C0D;
+border: 1px solid #ccc;
 text-align: center;
 }
 
@@ -64,11 +64,14 @@ text-align: center;
 margin-bottom: 20px;
 text-align: center;
 }
-
-.myWork {
-  display: flex;
+.workGrid { 
+  display: grid;
   justify-content: center;
-  align-items: center;
+}
+.workGrid > div {
+  width: 50%;
+  margin: 10px;
+  padding: 20px;
 }
 /*
 .myWork workGrid {

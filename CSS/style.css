@@ -69,7 +69,6 @@ text-align: center;
   justify-content: center;
 }
 .workGrid > div {
-  width: 50%;
   margin: 10px;
   padding: 20px;
 }

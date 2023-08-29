@@ -65,13 +65,22 @@ margin-bottom: 20px;
 text-align: center;
 }
 
-/* Add styles for the View all projects h3 tag */
+.myWork {
+  text-align: center;
+  margin-top: 50px;
+}
+
 .myWork h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+/* Add styles for the View all projects h3 tag */
+/* Commenting this out to see if this fixes my problem.myWork h3 {
 text-align: center;
 margin-top: 20px;
 font-size: 24px;
 }
-
+*/
 footer { background-color: #0D0C0D; padding: 10px; }
 
 footer ul { display: inline-block; vertical-align: top; }

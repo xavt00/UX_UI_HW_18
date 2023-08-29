@@ -124,3 +124,26 @@ footer ul { display: inline-block; vertical-align: top; }
 footer li { padding: 10px; color: white;}
 
 h1 {text-align: center; margin: 0 auto; padding-top: 25px;}
+
+@media (max-width: 600px) {
+  .flexContainer {
+    flex-direction: column;
+  }
+  
+  .flexContainer > div {
+    width: 100%;
+  }
+  .workGrid {
+    display: grid;
+    grid-template-areas:
+      "project1"
+      "project2";
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: 100%;
+  }
+  
+  .workGrid > div {
+    margin: 10px;
+    padding: 20px;
+  }
+}

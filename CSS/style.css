@@ -64,7 +64,31 @@ text-align: center;
 margin-bottom: 20px;
 text-align: center;
 }
-.workGrid { 
+
+.workContainer {
+  text-align: center;
+}
+
+.workGrid {
+  display: grid;
+  justify-content: center;
+}
+
+.workGrid > div {
+  margin: 10px;
+  padding: 20px;
+}
+
+.viewAllProjects {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.viewAllProjects h3 {
+  font-size: 24px;
+}
+
+/*.workGrid { 
   display: grid;
   justify-content: center;
 }
@@ -72,16 +96,18 @@ text-align: center;
   margin: 10px;
   padding: 20px;
 }
+*/
 /*
 .myWork workGrid {
   text-align: center;
   margin-top: 50px;
 }
-*/
+
 .myWork h3 {
   font-size: 24px;
   margin-bottom: 20px;
 }
+*/
 /* Add styles for the View all projects h3 tag */
 /* Commenting this out to see if this fixes my problem.myWork h3 {
 text-align: center;

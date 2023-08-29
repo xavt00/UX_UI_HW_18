@@ -87,6 +87,7 @@ text-align: center;
 .viewAllProjects h1 {
   font-size: 24px;
   text-align: center;
+  justify-content:center ;
 }
 
 /*.workGrid { 
